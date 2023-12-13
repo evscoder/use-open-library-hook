@@ -1,0 +1,363 @@
+cefe76f8946a0208fbbcaed7622d53fe
+"use strict";
+
+/* istanbul ignore next */
+function cov_u5k19zno3() {
+  var path = "E:\\Projects\\react-use-hook\\src\\api\\fetchIsOpenLibrary.tsx";
+  var hash = "a637d0086688bdd9985c6e5e570a1b56d8dab35a";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "E:\\Projects\\react-use-hook\\src\\api\\fetchIsOpenLibrary.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 22
+        },
+        end: {
+          line: 4,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 4
+        },
+        end: {
+          line: 3,
+          column: 62
+        }
+      },
+      "2": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 62
+        }
+      },
+      "3": {
+        start: {
+          line: 6,
+          column: 14
+        },
+        end: {
+          line: 6,
+          column: 47
+        }
+      },
+      "4": {
+        start: {
+          line: 7,
+          column: 27
+        },
+        end: {
+          line: 14,
+          column: 1
+        }
+      },
+      "5": {
+        start: {
+          line: 9,
+          column: 21
+        },
+        end: {
+          line: 11,
+          column: 6
+        }
+      },
+      "6": {
+        start: {
+          line: 12,
+          column: 19
+        },
+        end: {
+          line: 12,
+          column: 40
+        }
+      },
+      "7": {
+        start: {
+          line: 13,
+          column: 4
+        },
+        end: {
+          line: 13,
+          column: 23
+        }
+      },
+      "8": {
+        start: {
+          line: 15,
+          column: 0
+        },
+        end: {
+          line: 15,
+          column: 37
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 2,
+            column: 56
+          },
+          end: {
+            line: 2,
+            column: 57
+          }
+        },
+        loc: {
+          start: {
+            line: 2,
+            column: 71
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        },
+        line: 2
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 7,
+            column: 27
+          },
+          end: {
+            line: 7,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 44
+          },
+          end: {
+            line: 14,
+            column: 1
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 2,
+            column: 22
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 2,
+            column: 23
+          },
+          end: {
+            line: 2,
+            column: 27
+          }
+        }, {
+          start: {
+            line: 2,
+            column: 31
+          },
+          end: {
+            line: 2,
+            column: 51
+          }
+        }, {
+          start: {
+            line: 2,
+            column: 56
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        }],
+        line: 2
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 3,
+            column: 11
+          },
+          end: {
+            line: 3,
+            column: 61
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 37
+          },
+          end: {
+            line: 3,
+            column: 40
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 43
+          },
+          end: {
+            line: 3,
+            column: 61
+          }
+        }],
+        line: 3
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 3,
+            column: 12
+          },
+          end: {
+            line: 3,
+            column: 33
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 12
+          },
+          end: {
+            line: 3,
+            column: 15
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 19
+          },
+          end: {
+            line: 3,
+            column: 33
+          }
+        }],
+        line: 3
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0, 0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      file: "E:\\Projects\\react-use-hook\\src\\api\\fetchIsOpenLibrary.tsx",
+      mappings: ";;;;;AAAA,gDAAgC;AAEhC,MAAM,kBAAkB,GAAG,KAAK,EAAE,KAAa,EAAE,EAAE;IAC/C,aAAa;IACb,MAAM,QAAQ,GAAG,MAAM,KAAK,CAAC,yCAAyC,KAAK,EAAE,EAAE;QAC3E,OAAO,EAAE,aAAW;KACvB,CAAC,CAAC;IACH,MAAM,MAAM,GAAG,MAAM,QAAQ,CAAC,IAAI,EAAE,CAAC;IAErC,OAAO,MAAM,CAAC,IAAI,CAAC;AACvB,CAAC,CAAC;AAEF,kBAAe,kBAAkB,CAAC",
+      names: [],
+      sources: ["E:\\Projects\\react-use-hook\\src\\api\\fetchIsOpenLibrary.tsx"],
+      sourcesContent: ["import corsHeaders from \"./api\";\r\n\r\nconst fetchIsOpenLibrary = async (query: string) => {\r\n    // @ts-ignore\r\n    const response = await fetch(`https://openlibrary.org/search.json?q=${query}`, {\r\n        headers: corsHeaders\r\n    });\r\n    const result = await response.json();\r\n\r\n    return result.docs;\r\n};\r\n\r\nexport default fetchIsOpenLibrary;\r\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "a637d0086688bdd9985c6e5e570a1b56d8dab35a"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_u5k19zno3 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_u5k19zno3();
+var __importDefault =
+/* istanbul ignore next */
+(cov_u5k19zno3().s[0]++,
+/* istanbul ignore next */
+(cov_u5k19zno3().b[0][0]++, this) &&
+/* istanbul ignore next */
+(cov_u5k19zno3().b[0][1]++, this.__importDefault) ||
+/* istanbul ignore next */
+(cov_u5k19zno3().b[0][2]++, function (mod) {
+  /* istanbul ignore next */
+  cov_u5k19zno3().f[0]++;
+  cov_u5k19zno3().s[1]++;
+  return (
+    /* istanbul ignore next */
+    (cov_u5k19zno3().b[2][0]++, mod) &&
+    /* istanbul ignore next */
+    (cov_u5k19zno3().b[2][1]++, mod.__esModule) ?
+    /* istanbul ignore next */
+    (cov_u5k19zno3().b[1][0]++, mod) :
+    /* istanbul ignore next */
+    (cov_u5k19zno3().b[1][1]++, {
+      "default": mod
+    })
+  );
+}));
+/* istanbul ignore next */
+cov_u5k19zno3().s[2]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+const api_1 =
+/* istanbul ignore next */
+(cov_u5k19zno3().s[3]++, __importDefault(require("./api")));
+/* istanbul ignore next */
+cov_u5k19zno3().s[4]++;
+const fetchIsOpenLibrary = async query => {
+  /* istanbul ignore next */
+  cov_u5k19zno3().f[1]++;
+  // @ts-ignore
+  const response =
+  /* istanbul ignore next */
+  (cov_u5k19zno3().s[5]++, await fetch(`https://openlibrary.org/search.json?q=${query}`, {
+    headers: api_1.default
+  }));
+  const result =
+  /* istanbul ignore next */
+  (cov_u5k19zno3().s[6]++, await response.json());
+  /* istanbul ignore next */
+  cov_u5k19zno3().s[7]++;
+  return result.docs;
+};
+/* istanbul ignore next */
+cov_u5k19zno3().s[8]++;
+exports.default = fetchIsOpenLibrary;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJhcGlfMSIsImNvdl91NWsxOXpubzMiLCJzIiwiX19pbXBvcnREZWZhdWx0IiwicmVxdWlyZSIsImZldGNoSXNPcGVuTGlicmFyeSIsInF1ZXJ5IiwiZiIsInJlc3BvbnNlIiwiZmV0Y2giLCJoZWFkZXJzIiwiZGVmYXVsdCIsInJlc3VsdCIsImpzb24iLCJkb2NzIiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbIkU6XFxQcm9qZWN0c1xccmVhY3QtdXNlLWhvb2tcXHNyY1xcYXBpXFxmZXRjaElzT3BlbkxpYnJhcnkudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBjb3JzSGVhZGVycyBmcm9tIFwiLi9hcGlcIjtcclxuXHJcbmNvbnN0IGZldGNoSXNPcGVuTGlicmFyeSA9IGFzeW5jIChxdWVyeTogc3RyaW5nKSA9PiB7XHJcbiAgICAvLyBAdHMtaWdub3JlXHJcbiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKGBodHRwczovL29wZW5saWJyYXJ5Lm9yZy9zZWFyY2guanNvbj9xPSR7cXVlcnl9YCwge1xyXG4gICAgICAgIGhlYWRlcnM6IGNvcnNIZWFkZXJzXHJcbiAgICB9KTtcclxuICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTtcclxuXHJcbiAgICByZXR1cm4gcmVzdWx0LmRvY3M7XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmZXRjaElzT3BlbkxpYnJhcnk7XHJcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLE1BQUFBLEtBQUE7QUFBQTtBQUFBLENBQUFDLGFBQUEsR0FBQUMsQ0FBQSxPQUFBQyxlQUFBLENBQUFDLE9BQUE7QUFBZ0M7QUFBQUgsYUFBQSxHQUFBQyxDQUFBO0FBRWhDLE1BQU1HLGtCQUFrQixHQUFHLE1BQU9DLEtBQWEsSUFBSTtFQUFBO0VBQUFMLGFBQUEsR0FBQU0sQ0FBQTtFQUMvQztFQUNBLE1BQU1DLFFBQVE7RUFBQTtFQUFBLENBQUFQLGFBQUEsR0FBQUMsQ0FBQSxPQUFHLE1BQU1PLEtBQUssQ0FBQyx5Q0FBeUNILEtBQUssRUFBRSxFQUFFO0lBQzNFSSxPQUFPLEVBQUVWLEtBQUEsQ0FBQVc7R0FDWixDQUFDO0VBQ0YsTUFBTUMsTUFBTTtFQUFBO0VBQUEsQ0FBQVgsYUFBQSxHQUFBQyxDQUFBLE9BQUcsTUFBTU0sUUFBUSxDQUFDSyxJQUFJLEVBQUU7RUFBQztFQUFBWixhQUFBLEdBQUFDLENBQUE7RUFFckMsT0FBT1UsTUFBTSxDQUFDRSxJQUFJO0FBQ3RCLENBQUM7QUFBQztBQUFBYixhQUFBLEdBQUFDLENBQUE7QUFFRmEsT0FBQSxDQUFBSixPQUFBLEdBQWVOLGtCQUFrQiJ9

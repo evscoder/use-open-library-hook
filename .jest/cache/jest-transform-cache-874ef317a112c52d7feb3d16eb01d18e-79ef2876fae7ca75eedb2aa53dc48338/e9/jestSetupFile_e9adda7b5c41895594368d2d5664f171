@@ -1,0 +1,9 @@
+d7927f28eea44041d18f85e74cc98cdc
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const util_1 = require("util");
+Object.defineProperty(window, 'TextEncoder', {
+    writable: true,
+    value: util_1.TextEncoder,
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiRTpcXFByb2plY3RzXFxyZWFjdC11c2UtaG9va1xcamVzdFNldHVwRmlsZS50cyIsIm1hcHBpbmdzIjoiOztBQUFBLCtCQUFtQztBQUVuQyxNQUFNLENBQUMsY0FBYyxDQUFDLE1BQU0sRUFBRSxhQUFhLEVBQUU7SUFDekMsUUFBUSxFQUFFLElBQUk7SUFDZCxLQUFLLEVBQUUsa0JBQVc7Q0FDckIsQ0FBQyxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIkU6XFxQcm9qZWN0c1xccmVhY3QtdXNlLWhvb2tcXGplc3RTZXR1cEZpbGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgVGV4dEVuY29kZXIgfSBmcm9tICd1dGlsJztcclxuXHJcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eSh3aW5kb3csICdUZXh0RW5jb2RlcicsIHtcclxuICAgIHdyaXRhYmxlOiB0cnVlLFxyXG4gICAgdmFsdWU6IFRleHRFbmNvZGVyLFxyXG59KTtcclxuIl0sInZlcnNpb24iOjN9

@@ -1,0 +1,91 @@
+73997bb447e53583d44c4c2f4f1e7da7
+"use strict";
+
+/* istanbul ignore next */
+function cov_1vnqn9l158() {
+  var path = "E:\\Projects\\react-use-hook\\src\\api\\api.tsx";
+  var hash = "3825f46cac6226398f61e22d090b49e158fc5215";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "E:\\Projects\\react-use-hook\\src\\api\\api.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 20
+        },
+        end: {
+          line: 6,
+          column: 1
+        }
+      },
+      "2": {
+        start: {
+          line: 7,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 30
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: {
+      file: "E:\\Projects\\react-use-hook\\src\\api\\api.tsx",
+      mappings: ";;AAAA,MAAM,WAAW,GAAG;IAChB,6BAA6B,EAAE,GAAG;IAClC,8BAA8B,EAAE,oDAAoD;CACvF,CAAA;AAED,kBAAe,WAAW,CAAC",
+      names: [],
+      sources: ["E:\\Projects\\react-use-hook\\src\\api\\api.tsx"],
+      sourcesContent: ["const corsHeaders = {\r\n    'Access-Control-Allow-Origin': '*',\r\n    'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',\r\n}\r\n\r\nexport default corsHeaders;\r\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "3825f46cac6226398f61e22d090b49e158fc5215"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1vnqn9l158 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1vnqn9l158();
+cov_1vnqn9l158().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+const corsHeaders =
+/* istanbul ignore next */
+(cov_1vnqn9l158().s[1]++, {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type'
+});
+/* istanbul ignore next */
+cov_1vnqn9l158().s[2]++;
+exports.default = corsHeaders;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3JzSGVhZGVycyIsImNvdl8xdm5xbjlsMTU4IiwicyIsImV4cG9ydHMiLCJkZWZhdWx0Il0sInNvdXJjZXMiOlsiRTpcXFByb2plY3RzXFxyZWFjdC11c2UtaG9va1xcc3JjXFxhcGlcXGFwaS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgY29yc0hlYWRlcnMgPSB7XHJcbiAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJzogJyonLFxyXG4gICAgJ0FjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMnOiAnYXV0aG9yaXphdGlvbiwgeC1jbGllbnQtaW5mbywgYXBpa2V5LCBjb250ZW50LXR5cGUnLFxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBjb3JzSGVhZGVycztcclxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLE1BQU1BLFdBQVc7QUFBQTtBQUFBLENBQUFDLGNBQUEsR0FBQUMsQ0FBQSxPQUFHO0VBQ2hCLDZCQUE2QixFQUFFLEdBQUc7RUFDbEMsOEJBQThCLEVBQUU7Q0FDbkM7QUFBQTtBQUFBRCxjQUFBLEdBQUFDLENBQUE7QUFFREMsT0FBQSxDQUFBQyxPQUFBLEdBQWVKLFdBQVcifQ==

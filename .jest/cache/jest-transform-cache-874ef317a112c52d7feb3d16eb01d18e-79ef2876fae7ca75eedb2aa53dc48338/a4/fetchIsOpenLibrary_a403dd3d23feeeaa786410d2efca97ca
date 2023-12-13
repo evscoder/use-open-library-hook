@@ -1,0 +1,391 @@
+7a7ce21da7025d620f257e9730af078f
+"use strict";
+
+/* istanbul ignore next */
+function cov_u5k19zno3() {
+  var path = "E:\\Projects\\react-use-hook\\src\\api\\fetchIsOpenLibrary.tsx";
+  var hash = "5b1440cb6a749935bac36ac283da171e33fafd93";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "E:\\Projects\\react-use-hook\\src\\api\\fetchIsOpenLibrary.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 22
+        },
+        end: {
+          line: 4,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 4
+        },
+        end: {
+          line: 3,
+          column: 62
+        }
+      },
+      "2": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 62
+        }
+      },
+      "3": {
+        start: {
+          line: 6,
+          column: 14
+        },
+        end: {
+          line: 6,
+          column: 47
+        }
+      },
+      "4": {
+        start: {
+          line: 7,
+          column: 27
+        },
+        end: {
+          line: 18,
+          column: 1
+        }
+      },
+      "5": {
+        start: {
+          line: 9,
+          column: 4
+        },
+        end: {
+          line: 17,
+          column: 5
+        }
+      },
+      "6": {
+        start: {
+          line: 11,
+          column: 25
+        },
+        end: {
+          line: 11,
+          column: 104
+        }
+      },
+      "7": {
+        start: {
+          line: 12,
+          column: 23
+        },
+        end: {
+          line: 12,
+          column: 44
+        }
+      },
+      "8": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 27
+        }
+      },
+      "9": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 20
+        }
+      },
+      "10": {
+        start: {
+          line: 19,
+          column: 0
+        },
+        end: {
+          line: 19,
+          column: 37
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 2,
+            column: 56
+          },
+          end: {
+            line: 2,
+            column: 57
+          }
+        },
+        loc: {
+          start: {
+            line: 2,
+            column: 71
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        },
+        line: 2
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 7,
+            column: 27
+          },
+          end: {
+            line: 7,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 44
+          },
+          end: {
+            line: 18,
+            column: 1
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 2,
+            column: 22
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 2,
+            column: 23
+          },
+          end: {
+            line: 2,
+            column: 27
+          }
+        }, {
+          start: {
+            line: 2,
+            column: 31
+          },
+          end: {
+            line: 2,
+            column: 51
+          }
+        }, {
+          start: {
+            line: 2,
+            column: 56
+          },
+          end: {
+            line: 4,
+            column: 1
+          }
+        }],
+        line: 2
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 3,
+            column: 11
+          },
+          end: {
+            line: 3,
+            column: 61
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 37
+          },
+          end: {
+            line: 3,
+            column: 40
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 43
+          },
+          end: {
+            line: 3,
+            column: 61
+          }
+        }],
+        line: 3
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 3,
+            column: 12
+          },
+          end: {
+            line: 3,
+            column: 33
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 12
+          },
+          end: {
+            line: 3,
+            column: 15
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 19
+          },
+          end: {
+            line: 3,
+            column: 33
+          }
+        }],
+        line: 3
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0, 0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      file: "E:\\Projects\\react-use-hook\\src\\api\\fetchIsOpenLibrary.tsx",
+      mappings: ";;;;;AAAA,gDAAgC;AAEhC,MAAM,kBAAkB,GAAG,KAAK,EAAE,KAAa,EAAE,EAAE;IAC/C,4CAA4C;IAC5C,IAAI;QACA,aAAa;QACb,MAAM,QAAQ,GAAG,MAAM,KAAK,CAAC,yCAAyC,KAAK,EAAE,EAAE,GAAG,aAAW,CAAC,CAAC;QAC/F,MAAM,MAAM,GAAG,MAAM,QAAQ,CAAC,IAAI,EAAE,CAAC;QAErC,OAAO,MAAM,CAAC,IAAI,CAAC;KACtB;IAAC,OAAO,KAAK,EAAE;QACZ,MAAM,KAAK,CAAC;KACf;AACL,CAAC,CAAC;AAEF,kBAAe,kBAAkB,CAAC",
+      names: [],
+      sources: ["E:\\Projects\\react-use-hook\\src\\api\\fetchIsOpenLibrary.tsx"],
+      sourcesContent: ["import corsHeaders from \"./api\";\r\n\r\nconst fetchIsOpenLibrary = async (query: string) => {\r\n    // eslint-disable-next-line no-useless-catch\r\n    try {\r\n        // @ts-ignore\r\n        const response = await fetch(`https://openlibrary.org/search.json?q=${query}`, ...corsHeaders);\r\n        const result = await response.json();\r\n\r\n        return result.docs;\r\n    } catch (error) {\r\n        throw error;\r\n    }\r\n};\r\n\r\nexport default fetchIsOpenLibrary;\r\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "5b1440cb6a749935bac36ac283da171e33fafd93"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_u5k19zno3 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_u5k19zno3();
+var __importDefault =
+/* istanbul ignore next */
+(cov_u5k19zno3().s[0]++,
+/* istanbul ignore next */
+(cov_u5k19zno3().b[0][0]++, this) &&
+/* istanbul ignore next */
+(cov_u5k19zno3().b[0][1]++, this.__importDefault) ||
+/* istanbul ignore next */
+(cov_u5k19zno3().b[0][2]++, function (mod) {
+  /* istanbul ignore next */
+  cov_u5k19zno3().f[0]++;
+  cov_u5k19zno3().s[1]++;
+  return (
+    /* istanbul ignore next */
+    (cov_u5k19zno3().b[2][0]++, mod) &&
+    /* istanbul ignore next */
+    (cov_u5k19zno3().b[2][1]++, mod.__esModule) ?
+    /* istanbul ignore next */
+    (cov_u5k19zno3().b[1][0]++, mod) :
+    /* istanbul ignore next */
+    (cov_u5k19zno3().b[1][1]++, {
+      "default": mod
+    })
+  );
+}));
+/* istanbul ignore next */
+cov_u5k19zno3().s[2]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+const api_1 =
+/* istanbul ignore next */
+(cov_u5k19zno3().s[3]++, __importDefault(require("./api")));
+/* istanbul ignore next */
+cov_u5k19zno3().s[4]++;
+const fetchIsOpenLibrary = async query => {
+  /* istanbul ignore next */
+  cov_u5k19zno3().f[1]++;
+  cov_u5k19zno3().s[5]++;
+  // eslint-disable-next-line no-useless-catch
+  try {
+    // @ts-ignore
+    const response =
+    /* istanbul ignore next */
+    (cov_u5k19zno3().s[6]++, await fetch(`https://openlibrary.org/search.json?q=${query}`, ...api_1.default));
+    const result =
+    /* istanbul ignore next */
+    (cov_u5k19zno3().s[7]++, await response.json());
+    /* istanbul ignore next */
+    cov_u5k19zno3().s[8]++;
+    return result.docs;
+  } catch (error) {
+    /* istanbul ignore next */
+    cov_u5k19zno3().s[9]++;
+    throw error;
+  }
+};
+/* istanbul ignore next */
+cov_u5k19zno3().s[10]++;
+exports.default = fetchIsOpenLibrary;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfdTVrMTl6bm8zIiwiYWN0dWFsQ292ZXJhZ2UiLCJhcGlfMSIsInMiLCJfX2ltcG9ydERlZmF1bHQiLCJyZXF1aXJlIiwiZmV0Y2hJc09wZW5MaWJyYXJ5IiwicXVlcnkiLCJmIiwicmVzcG9uc2UiLCJmZXRjaCIsImRlZmF1bHQiLCJyZXN1bHQiLCJqc29uIiwiZG9jcyIsImVycm9yIiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbIkU6XFxQcm9qZWN0c1xccmVhY3QtdXNlLWhvb2tcXHNyY1xcYXBpXFxmZXRjaElzT3BlbkxpYnJhcnkudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBjb3JzSGVhZGVycyBmcm9tIFwiLi9hcGlcIjtcclxuXHJcbmNvbnN0IGZldGNoSXNPcGVuTGlicmFyeSA9IGFzeW5jIChxdWVyeTogc3RyaW5nKSA9PiB7XHJcbiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tdXNlbGVzcy1jYXRjaFxyXG4gICAgdHJ5IHtcclxuICAgICAgICAvLyBAdHMtaWdub3JlXHJcbiAgICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChgaHR0cHM6Ly9vcGVubGlicmFyeS5vcmcvc2VhcmNoLmpzb24/cT0ke3F1ZXJ5fWAsIC4uLmNvcnNIZWFkZXJzKTtcclxuICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7XHJcblxyXG4gICAgICAgIHJldHVybiByZXN1bHQuZG9jcztcclxuICAgIH0gY2F0Y2ggKGVycm9yKSB7XHJcbiAgICAgICAgdGhyb3cgZXJyb3I7XHJcbiAgICB9XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmZXRjaElzT3BlbkxpYnJhcnk7XHJcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBV1E7SUFBQUEsYUFBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsYUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQVhSLE1BQUFFLEtBQUE7QUFBQTtBQUFBLENBQUFGLGFBQUEsR0FBQUcsQ0FBQSxPQUFBQyxlQUFBLENBQUFDLE9BQUE7QUFBZ0M7QUFBQUwsYUFBQSxHQUFBRyxDQUFBO0FBRWhDLE1BQU1HLGtCQUFrQixHQUFHLE1BQU9DLEtBQWEsSUFBSTtFQUFBO0VBQUFQLGFBQUEsR0FBQVEsQ0FBQTtFQUFBUixhQUFBLEdBQUFHLENBQUE7RUFDL0M7RUFDQSxJQUFJO0lBQ0E7SUFDQSxNQUFNTSxRQUFRO0lBQUE7SUFBQSxDQUFBVCxhQUFBLEdBQUFHLENBQUEsT0FBRyxNQUFNTyxLQUFLLENBQUMseUNBQXlDSCxLQUFLLEVBQUUsRUFBRSxHQUFHTCxLQUFBLENBQUFTLE9BQVcsQ0FBQztJQUM5RixNQUFNQyxNQUFNO0lBQUE7SUFBQSxDQUFBWixhQUFBLEdBQUFHLENBQUEsT0FBRyxNQUFNTSxRQUFRLENBQUNJLElBQUksRUFBRTtJQUFDO0lBQUFiLGFBQUEsR0FBQUcsQ0FBQTtJQUVyQyxPQUFPUyxNQUFNLENBQUNFLElBQUk7R0FDckIsQ0FBQyxPQUFPQyxLQUFLLEVBQUU7SUFBQTtJQUFBZixhQUFBLEdBQUFHLENBQUE7SUFDWixNQUFNWSxLQUFLOztBQUVuQixDQUFDO0FBQUM7QUFBQWYsYUFBQSxHQUFBRyxDQUFBO0FBRUZhLE9BQUEsQ0FBQUwsT0FBQSxHQUFlTCxrQkFBa0IifQ==

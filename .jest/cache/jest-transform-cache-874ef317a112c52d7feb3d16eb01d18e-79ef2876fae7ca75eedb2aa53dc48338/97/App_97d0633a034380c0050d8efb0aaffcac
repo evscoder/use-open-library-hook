@@ -1,0 +1,149 @@
+96d74a58025217c260e26a31cea6be68
+"use strict";
+
+/* istanbul ignore next */
+function cov_chu2krbgu() {
+  var path = "E:\\Projects\\react-use-hook\\src\\App.tsx";
+  var hash = "e69518ca067fb8956c15aa2a932e5015d6a4e6ea";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "E:\\Projects\\react-use-hook\\src\\App.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 22
+        },
+        end: {
+          line: 3,
+          column: 50
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 21
+        }
+      },
+      "3": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 6,
+          column: 94
+        }
+      },
+      "4": {
+        start: {
+          line: 8,
+          column: 0
+        },
+        end: {
+          line: 8,
+          column: 22
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "App",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 12
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 15
+          },
+          end: {
+            line: 7,
+            column: 1
+          }
+        },
+        line: 5
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "E:\\Projects\\react-use-hook\\src\\App.tsx",
+      mappings: ";;;AAAA,qBAAmB;AACnB,SAAS,GAAG;IACR,OAAO,CACH,8CAAiB,YAAY,sBAAY,CAC5C,CAAC;AAEN,CAAC;AAED,kBAAe,GAAG,CAAA",
+      names: [],
+      sources: ["E:\\Projects\\react-use-hook\\src\\App.tsx"],
+      sourcesContent: ["import './App.css';\nfunction App() {\n    return (\n        <h1 data-testid={'main-title'}>Hello</h1>\n    );\n\n}\n\nexport default App\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "e69518ca067fb8956c15aa2a932e5015d6a4e6ea"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_chu2krbgu = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_chu2krbgu();
+cov_chu2krbgu().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+const jsx_runtime_1 =
+/* istanbul ignore next */
+(cov_chu2krbgu().s[1]++, require("react/jsx-runtime"));
+/* istanbul ignore next */
+cov_chu2krbgu().s[2]++;
+require("./App.css");
+function App() {
+  /* istanbul ignore next */
+  cov_chu2krbgu().f[0]++;
+  cov_chu2krbgu().s[3]++;
+  return (0, jsx_runtime_1.jsx)("h1", {
+    "data-testid": 'main-title',
+    children: "Hello"
+  });
+}
+/* istanbul ignore next */
+cov_chu2krbgu().s[4]++;
+exports.default = App;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJyZXF1aXJlIiwiQXBwIiwiY292X2NodTJrcmJndSIsImYiLCJzIiwianN4X3J1bnRpbWVfMSIsImpzeCIsImNoaWxkcmVuIiwiZXhwb3J0cyIsImRlZmF1bHQiXSwic291cmNlcyI6WyJFOlxcUHJvamVjdHNcXHJlYWN0LXVzZS1ob29rXFxzcmNcXEFwcC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICcuL0FwcC5jc3MnO1xuZnVuY3Rpb24gQXBwKCkge1xuICAgIHJldHVybiAoXG4gICAgICAgIDxoMSBkYXRhLXRlc3RpZD17J21haW4tdGl0bGUnfT5IZWxsbzwvaDE+XG4gICAgKTtcblxufVxuXG5leHBvcnQgZGVmYXVsdCBBcHBcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQUEsT0FBQTtBQUNBLFNBQVNDLEdBQUdBLENBQUE7RUFBQTtFQUFBQyxhQUFBLEdBQUFDLENBQUE7RUFBQUQsYUFBQSxHQUFBRSxDQUFBO0VBQ1IsT0FDSSxJQUFBQyxhQUFBLENBQUFDLEdBQUE7SUFBQSxlQUFpQixZQUFZO0lBQUFDLFFBQUE7RUFBQSxFQUFZO0FBR2pEO0FBQUM7QUFBQUwsYUFBQSxHQUFBRSxDQUFBO0FBRURJLE9BQUEsQ0FBQUMsT0FBQSxHQUFlUixHQUFHIn0=
